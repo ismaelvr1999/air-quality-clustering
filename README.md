@@ -1,6 +1,16 @@
 # Air Quality Clustering 🌬️
 This project focuses on analyzing air quality data and categorizing it into clusters using the K-Means algorithm.
+
 # Table of Contents 📚
+- [Overview 🌟](#Overview-)
+- [Technologies Used 🔧](#Technologies-Used-)
+- [Dataset 📊](#Dataset-)
+- [Data Preprocessing 🛠️](#Data-Preprocessing)
+- [Clustering 📍](#Clustering)
+- [Usage 🚀](#Usage-)
+- [Author ✍️](#Author)
+- [Acknowledgments 🙏](#Acknowledgments-)
+
 
 ## Overview 🌟
 
@@ -15,7 +25,7 @@ This project utilizes the following technologies:
   - **Matplotlib** 📈: Plotting and visualization library.
   - **Scikit-learn** 🤖: Machine learning library for implementing K-Means and other algorithms.
 
-## Dataset   🗃️
+## Dataset 📊
 
 The dataset used is from the air quality measurements in the metropolitan area of Guadalajara, collected hourly throughout the year 2016 . It includes various columns related to air quality and environmental factors.
 
@@ -36,12 +46,12 @@ The dataset used is from the air quality measurements in the metropolitan area o
 - **Wind Direction**: Wind direction present at that time.
 - **Solar Radiation**: Solar radiation present at that time.
 
-## Data Preprocessing 🛠️
+## Data Preprocessing
 
 1. **Cleaning Data**: Removed duplicate records and records with missing values. Values marked as 'ND' were replaced with `None`.
 2. **Sample Extraction**: Extracted a sample of data by selecting two records per day with the highest and lowest averages of chemical compounds.
 3. **Dataset Preparation**: Created datasets with the relevant variables for training, including standardizing and scaling the data.
-## Clustering 📍
+## Clustering📍
 
 1. **K-Means Implementation**: 
    - Applied the K-Means algorithm to the dataset.
@@ -59,7 +69,7 @@ To run the project and perform clustering, follow these steps:
 2. **Install Dependencies:**:
     ```bash
     pip install -r requirements.txt
-## Author ✍️
+## Author
 
 - [@ismaelvr1999](https://www.github.com/ismaelvr1999)
 ## Acknowledgments 🙏
