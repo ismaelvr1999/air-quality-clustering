@@ -65,7 +65,7 @@ The dataset used is from the air quality measurements in the metropolitan area o
 To run the project and perform clustering, follow these steps:
 1. **Clone the Repository**:
    ```bash
-   https://github.com/ismaelvr1999/air-quality-clustering.git
+   git clone https://github.com/ismaelvr1999/air-quality-clustering.git
 2. **Install Dependencies:**:
     ```bash
     pip install -r requirements.txt
